@@ -20,7 +20,6 @@ Menampilkan berita dari berbagai kategori secara real-time menggunakan [berita-i
 git clone https://github.com/raiakmal/seal-berita-terkini.git
 cd NAMA-REPO
 ```
-````
 
 ### 2. Install Dependencies
 
@@ -70,3 +69,4 @@ yarn preview
 - [TailwindCSS](https://tailwindcss.com/)
 - [React Router](https://reactrouter.com/)
 - [berita-indo-api-next](https://berita-indo-api-next.vercel.app/)
+````
