@@ -1,6 +1,6 @@
 # 📰 Berita Portal – React + Vite
 
-Portal berita dinamis berbasis **React**, **Vite**, dan **TailwindCSS** yang menampilkan berita terbaru dari berbagai kategori secara real-time menggunakan API dari [berita-indo-api-next](https://berita-indo-api-next.vercel.app?utm_source=chatgpt.com).
+Portal berita dinamis berbasis **React**, **Vite**, dan **TailwindCSS** yang menampilkan berita terbaru dari berbagai kategori secara real-time menggunakan API dari [seal-berita-terkini](https://seal-berita-terkini.vercel.app/).
 
 ---
 
@@ -82,18 +82,6 @@ Atau port lain yang muncul pada terminal.
 - **Detail Berita** → Halaman detail artikel
 - **Komentar** → Penyimpanan komentar menggunakan `localStorage`
 - **Responsive Layout** → Tampilan optimal di desktop maupun mobile
-
----
-
-## ⚙️ Konfigurasi Tambahan
-
-### Linting
-
-Untuk mengecek kualitas kode:
-
-```bash
-npm run lint
-```
 
 ---
 
