@@ -1,16 +1,72 @@
-# React + Vite
+````markdown
+# Berita Portal – React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portal berita dinamis berbasis React, Vite, dan TailwindCSS.  
+Menampilkan berita dari berbagai kategori secara real-time menggunakan [berita-indo-api-next](https://berita-indo-api-next.vercel.app/).
 
-Currently, two official plugins are available:
+## Fitur
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Dynamic kategori & berita (headline, populer, rekomendasi, detail, dsb)
+- Routing SPA dengan React Router
+- UI responsif & modern (TailwindCSS)
+- Komentar lokal (localStorage)
+- Breadcrumb, slider, dan fitur UX lainnya
 
-## React Compiler
+## Instalasi & Penggunaan
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 1. Clone Repository
 
-## Expanding the ESLint configuration
+```bash
+git clone https://github.com/raiakmal/seal-berita-terkini.git
+cd NAMA-REPO
+```
+````
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 2. Install Dependencies
+
+```bash
+npm install
+# atau
+yarn install
+```
+
+### 3. Jalankan Development Server
+
+```bash
+npm run dev
+# atau
+yarn dev
+```
+
+Akses di [http://localhost:5173](http://localhost:5173) (atau port yang muncul di terminal).
+
+### 4. Build untuk Produksi
+
+```bash
+npm run build
+# atau
+yarn build
+```
+
+### 5. Preview Build (Opsional)
+
+```bash
+npm run preview
+# atau
+yarn preview
+```
+
+## Konfigurasi Lain
+
+- **Linting:**  
+  Jalankan `npm run lint` untuk cek kualitas kode.
+- **Environment:**  
+  Jika butuh konfigurasi khusus, buat file `.env` (lihat/duplikasi `.env.example` jika ada).
+
+## Stack
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [React Router](https://reactrouter.com/)
+- [berita-indo-api-next](https://berita-indo-api-next.vercel.app/)
